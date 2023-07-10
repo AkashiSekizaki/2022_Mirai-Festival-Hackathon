@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Places Search Box</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script src="./index.js"></script>
+
+    <!--ここから-->
+    <form>
+      <select name="LINES" id = "choose">
+        <option value="55A系統">55A系統</option>
+        <option value="55G系統">55G系統</option>
+        <option value="67A系統">67A系統</option>
+
+    </select>
+    <input type = "button" value = "路線を表示する" id = "view">
+      <input type="button" value="路線表示なし" id="Directions">
+      <input type ="button" value = "バス停と道を表示" id = "change">
+    </form>
+    
+  </head>
+  <body>
+    <input
+      id="pac-input"
+      class="controls"
+      type="text"
+      placeholder="Search Box"
+    />
+    
+    <div id="map" class="class1"></div>
+    <!--div id="map" ></div -->
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_3YKgZHJYB4lKBmNi3shLqVVKBeW9cNA&callback=initAutocomplete&libraries=places&v=weekly"
+      async
+    ></script>
+  </body>
+</html>
