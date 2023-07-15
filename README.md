@@ -37,7 +37,7 @@ Google Map APIでは、バス路線を取得することができなかった。
 Google Map APIでは、20回程度までしか連続で呼び出せない
 
 **解決の流れ**
-メンバーの根岸が原因を見つけ、それを解決してくれた
+メンバーの根岸が原因を見つけ、それを解決してくれた。20回以下までの路線ルートを要求した後、もう一度路線ルートを要求した。
 
 **他メンバーの活躍**
 バス停の緯度経度集め, 発表資料作成
@@ -50,9 +50,13 @@ Google Map API
 #### その他開発に使用したツール・サービス
 Google Drive, miro,
 ## 発表内容
+
 #### 発表動画
 https://www.youtube.com/watch?v=OoZBnYuynvU
 動画の30:00から
+#### 発表資料
+https://docs.google.com/presentation/d/1zO-FGawnadU5UDKFJQ72aHQHHm0bruRIH7vTQMgrKjc/edit (優勝景品として、NoMaps2022で使用した資料)
+
 ## 今回のハッカソンについて
 #### 第22回未来祭（公立はこだて未来大学 学園祭）「Hackathon for FUN students」のWebページ
 https://no-maps.jp/mirai-univ-hackathon2022/ 
